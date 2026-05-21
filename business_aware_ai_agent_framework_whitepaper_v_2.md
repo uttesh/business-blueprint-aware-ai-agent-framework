@@ -462,7 +462,7 @@ business-aware-agent-framework/
 
 ---
 
-# 15. Suggested Next Steps
+# 15. Next Steps
 
 ## Phase 1 — Documentation
 
@@ -504,7 +504,7 @@ business-aware-agent-framework/
 
 This document represents an early conceptual framework exploring business-aware orchestration systems for AI-native software engineering.
 
-The concepts presented here aim to formalize the idea that AI coding systems should understand business intent and organizational semantics before implementation planning begins.
+The concepts presented here aim to formalise the idea that AI coding systems should understand business intent and organisational semantics before implementation planning begins.
 
 ---
 
@@ -518,20 +518,8 @@ Suggested license options:
 
 ---
 
-# 18. Publication Recommendations
 
-Recommended publishing channels:
-
-- GitHub repository
-- Zenodo DOI publication
-- Medium technical article
-- Dev.to engineering article
-- Hacker News discussion
-- LinkedIn technical post
-
----
-
-# 19. Final Note
+# 18. Final Note
 
 The future of AI software engineering may not depend solely on larger models or larger context windows.
 
