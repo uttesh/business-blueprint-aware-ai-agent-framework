@@ -335,7 +335,7 @@ Implementation
 Blueprint Synchronization
            ↓
 Update Business Blueprint
----
+```
 This approach allows the blueprint context to evolve alongside the repository rather than become static documentation.
 
 Future systems may also include semantic validation agents capable of detecting drift between:
