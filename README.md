@@ -38,6 +38,7 @@ before code generation.
 See:
 - business_blueprint_concept.pdf
 - business_blueprint_concept.md
+zenodo: https://zenodo.org/records/20338089
 
 ## Status
 Early concept exploration and architecture research.
