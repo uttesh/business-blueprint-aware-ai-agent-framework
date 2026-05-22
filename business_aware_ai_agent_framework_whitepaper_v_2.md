@@ -3,7 +3,7 @@
 
 **Author:** Uttesh Kumar T.H.
 **Date:** May 2026
-**Version:** 0.1 Draft
+**Version:** 0.2 — May 2026
 
 ---
 
@@ -303,6 +303,48 @@ The Business Blueprint Layer becomes:
 - More deterministic orchestration
 
 ---
+# 8. Semantic Drift & Blueprint Synchronisation
+
+One major challenge in long-term AI orchestration systems is semantic drift.
+
+Business logic evolves continuously, while documentation often becomes stale over time. A static Business Blueprint Layer would eventually lose alignment with the repository's actual implementation and operational behaviour.
+
+To address this problem, the Business Blueprint Layer should become part of the software development lifecycle itself.
+
+Every implementation cycle should include blueprint synchronisation as part of the orchestration workflow.
+
+## Updated Orchestration Flow
+
+```text
+Jira Ticket / User Request
+           ↓
+Business Blueprint Understanding
+           ↓
+Domain Semantic Interpretation
+           ↓
+Technical Architecture Understanding
+           ↓
+Planning Agent
+           ↓
+Execution Agents
+           ↓
+Validation Agents
+           ↓
+Implementation
+           ↓
+Blueprint Synchronization
+           ↓
+Update Business Blueprint
+---
+This approach allows the blueprint context to evolve alongside the repository rather than become static documentation.
+
+Future systems may also include semantic validation agents capable of detecting drift between:
+
+- implementation behaviour,
+- repository architecture,
+- and business-semantic intent.
+
+This transforms the blueprint layer from a passive documentation system into a living organisational semantic memory.
 
 ## Business Advantages
 
@@ -314,7 +356,7 @@ The Business Blueprint Layer becomes:
 
 ---
 
-# 8. Future Extensions
+# 9. Future Extensions
 
 The blueprint layer may evolve into:
 
@@ -334,7 +376,7 @@ Potential integrations include:
 
 ---
 
-# 9. Future Research Directions
+# 10. Future Research Directions
 
 Potential areas for exploration:
 
@@ -348,7 +390,7 @@ Potential areas for exploration:
 
 ---
 
-# 10. Conclusion
+# 11. Conclusion
 
 Current AI software engineering systems primarily focus on repository understanding, prompt orchestration, and code generation.
 
@@ -380,7 +422,7 @@ As autonomous engineering systems continue to evolve, business-semantic context 
 
 ---
 
-# 11. Proposed Terminology
+# 12. Proposed Terminology
 
 | Term | Description |
 |---|---|
@@ -393,7 +435,7 @@ As autonomous engineering systems continue to evolve, business-semantic context 
 
 ---
 
-# 12. Example Enterprise Workflow
+# 13. Example Enterprise Workflow
 
 ```text
 Product Team Creates Jira Ticket
@@ -417,7 +459,7 @@ Human Review
 
 ---
 
-# 13. Comparison with Existing Approaches
+# 14. Comparison with Existing Approaches
 
 | Approach | Primary Focus | Limitation |
 |---|---|---|
@@ -429,7 +471,7 @@ Human Review
 
 ---
 
-# 14. Potential Open-Source Structure
+# 15. Potential Open-Source Structure
 
 ```text
 business-aware-agent-framework/
@@ -462,7 +504,7 @@ business-aware-agent-framework/
 
 ---
 
-# 15. Next Steps
+# 16. Next Steps
 
 ## Phase 1 — Documentation
 
@@ -500,7 +542,7 @@ business-aware-agent-framework/
 
 ---
 
-# 16. Attribution Statement
+# 17. Attribution Statement
 
 This document represents an early conceptual framework exploring business-aware orchestration systems for AI-native software engineering.
 
@@ -508,7 +550,7 @@ The concepts presented here aim to formalise the idea that AI coding systems sho
 
 ---
 
-# 17. License
+# 18. License
 
 Suggested license options:
 
@@ -519,7 +561,7 @@ Suggested license options:
 ---
 
 
-# 18. Final Note
+# 19. Final Note
 
 The future of AI software engineering may not depend solely on larger models or larger context windows.
 
@@ -527,7 +569,7 @@ It may depend on whether AI systems can understand:
 
 - why software exists,
 - what business objectives it serves,
-- how organizations operate,
+- how organisations operate,
 - and how implementation decisions align with long-term product intent.
 
 The Business Blueprint Layer is one possible direction toward that future.
